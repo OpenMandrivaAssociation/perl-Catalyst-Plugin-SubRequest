@@ -1,4 +1,3 @@
-
 %define realname   Catalyst-Plugin-SubRequest
 %define version    0.13
 %define release    %mkrel 1
@@ -15,17 +14,12 @@ BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: perl-devel
 BuildRequires: perl(Catalyst::Runtime)
 BuildRequires: perl(Test::More)
-
 BuildArch: noarch
 
 %description
 
 Make subrequests to actions in Catalyst. Uses the catalyst dispatcher, so
 it will work like an external url call.
-
-
-
-
 
 %prep
 %setup -q -n %{realname}-%{version} 
@@ -49,6 +43,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes META.yml README
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
-
 
