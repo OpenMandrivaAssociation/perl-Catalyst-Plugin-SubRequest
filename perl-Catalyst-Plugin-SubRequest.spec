@@ -1,6 +1,6 @@
 %define realname   Catalyst-Plugin-SubRequest
 %define version    0.13
-%define release    %mkrel 1
+%define release    %mkrel 3
 
 Name:       perl-%{realname}
 Version:    %{version}
