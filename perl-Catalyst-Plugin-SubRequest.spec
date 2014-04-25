@@ -1,11 +1,12 @@
 %define upstream_name    Catalyst-Plugin-SubRequest
-%define upstream_version 0.17
+%define upstream_version 0.20
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Make subrequests to actions in Catalyst
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -37,4 +38,5 @@ make test
 %doc Changes META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 

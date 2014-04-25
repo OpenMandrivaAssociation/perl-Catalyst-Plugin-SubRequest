@@ -1,2 +1,4 @@
+removed_sources:
+  Catalyst-Plugin-SubRequest-0.17.tar.gz: f5a173c53049c8a6cb93279cf90c0c2fabc770c2
 sources:
-  "Catalyst-Plugin-SubRequest-0.17.tar.gz": f5a173c53049c8a6cb93279cf90c0c2fabc770c2
+  Catalyst-Plugin-SubRequest-0.20.tar.gz: 77adcb02752a36281aafe5fe3d54404a2b42cb88
